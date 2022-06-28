@@ -83,7 +83,9 @@ These subsystems and the completed model are as shown in subsequent sections.
 <h2>The Motor Mixer</h2>
 The motor mixer is an intermediate subsystem deployed between the PID controller and the quadrotor. Its basic function is to provide an automatic control mechanism for the quadrotor actuator input voltages in order to achieve the required maneuvers (<B>"Throttle", "Pitch", "Roll"</B>, and <B>"Yaw"</B>) necessary to successfully fly the quadrotor.
 </Br>
-It should be noted that <B>32.159245</B> fed-forward in the Simulink model for the motor mixer shown below <B>is</B> the <B>calculated take-off voltage</B> which all the 4 rotors of the quadrotor must supply for the quadrotor <B>to offset gravity</B> by taking off from rest.
+It should be noted that <B>32.159245</B> fed-forward in the Simulink model for the motor mixer shown below <B>is</B> the <B>calculated take-off voltage</B> which all the 4 rotors of the quadrotor must supply for the quadrotor <B>to offset gravity</B> by taking off from rest. This occur when all four quadrotor elctric motors (the rotors) are rotating at an approximate angular speed (Ω) ≅ 𝟑𝟓𝟓. 𝟕 𝒓adiansperseconds. 
+</Br>
+At this point, <B>all</B> the <B>input signals</B> to the <B>motor mixers</B> (the maneuvers) are all <B>zero</B>, but the quadrotor still takes-off from rest and levitate above the ground at a near-zero height of <B>0.0040435200912015m</B> as shown in the Take-Off Voltage Images Below.
 </Br>
 </Br>
 </Br>
@@ -92,6 +94,15 @@ It should be noted that <B>32.159245</B> fed-forward in the Simulink model for t
 <img src="https://i.imgur.com/fcW494V.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
+ <B>Quadrotor Take-Off Voltage Digital Result Display</B><br/>
+<img src="https://i.imgur.com/SrSKi4U.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+ <B>Quadrotor Take-Off Voltage Graphical Result Display</B><br/>
+<img src="https://i.imgur.com/ly2MJ0a.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+ </P>
 <!--
  ```diff
 - text in red
