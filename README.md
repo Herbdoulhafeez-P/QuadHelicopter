@@ -51,6 +51,30 @@ These subsystems and the completed model are as shown in subsequent sections.
 <img src="https://i.imgur.com/WCZzvxx.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
+<B>Derived X-Motion Subsystem Equation </B><br/>
+<img src="https://i.imgur.com/Sg5deb7.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+<B>Mathematical Modelling of the X-Motion Subsystem Equation on MATLAB Simulink</B><br/>
+<img src="https://i.imgur.com/uvsdjLy.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+<B>Derived Y-Motion Subsystem Equation </B><br/>
+<img src="https://i.imgur.com/l7p88YY.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+<B>Mathematical Modelling of the Y-Motion Subsystem Equation on MATLAB Simulink</B><br/>
+<img src="https://i.imgur.com/0JNKYz4.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+<B>Derived Z-Motion Subsystem Equation </B><br/>
+<img src="https://i.imgur.com/Vj5EWss.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+<B>Mathematical Modelling of the Z-Motion Subsystem Equation on MATLAB Simulink</B><br/>
+<img src="https://i.imgur.com/lf09r1x.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
 </p>
 
 <!--
