@@ -16,7 +16,7 @@ These subsystems and the completed model are as shown in subsequent sections.
 
 - <b>Windows 10</b>
 
-<h2>Program walk-through:</h2>
+<h2>Mathematical Modelling of the Quadrotor Helicopter</h2>
 
 <p align="center">
 <B>Derived Equation for the Actuator Subsystem </B><br/>
@@ -75,8 +75,23 @@ These subsystems and the completed model are as shown in subsequent sections.
 <img src="https://i.imgur.com/lf09r1x.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
+ <B>The Complete Mathematical Model for the Quadrotor Helicopter</B><br/>
+<img src="https://i.imgur.com/QzURoVU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
 </p>
-
+<h2>The Motor Mixer</h2>
+The motor mixer is an intermediate subsystem deployed between the PID controller and the quadrotor. Its basic function is to provide an automatic control mechanism for the quadrotor actuator input voltages in order to achieve the required maneuvers (<B>"Throttle", "Pitch", "Roll"</B>, and <B>"Yaw"</B>) necessary to successfully fly the quadrotor.
+</Br>
+It should be noted that <B>32.159245</B> fed-forward in the Simulink model for the motor mixer shown below <B>is</B> the <B>calculated take-off voltage</B> which all the 4 rotors of the quadrotor must supply for the quadrotor <B>to offset gravity</B> by taking off from rest.
+</Br>
+</Br>
+</Br>
+<p align="center">
+<B>The Quadrotor Motor Mixer</B><br/>
+<img src="https://i.imgur.com/fcW494V.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
 <!--
  ```diff
 - text in red
