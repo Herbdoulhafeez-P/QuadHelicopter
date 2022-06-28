@@ -51,8 +51,6 @@ These subsystems and the completed model are as shown in subsequent sections.
 <img src="https://i.imgur.com/WCZzvxx.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Observe the wiped disk:  <br/>
-<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
 <!--
